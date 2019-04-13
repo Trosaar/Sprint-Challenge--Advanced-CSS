@@ -8,6 +8,23 @@
     width: 100%;
   }
 
+  img {
+    transition: all 1s;
+  }
+
+  img:hover {
+    .hoverEffect(scale(1.05), 5px)
+  }
+
+  h2, h3 {
+      transition: all 1s;
+  }
+
+  h2:hover, h3:hover {
+    text-shadow: 5px 5px 5px black;
+    transform: translateY(-10%);
+  }
+
   .intro {
 
     img {
@@ -118,5 +135,10 @@
         border-radius: 10px;
       }
     }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
   }
 }// home

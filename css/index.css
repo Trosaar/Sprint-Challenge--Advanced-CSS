@@ -204,6 +204,22 @@ footer {
     width: 100%;
   }
 }
+.home img {
+  transition: all 1s;
+}
+.home img:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px black;
+}
+.home h2,
+.home h3 {
+  transition: all 1s;
+}
+.home h2:hover,
+.home h3:hover {
+  text-shadow: 5px 5px 5px black;
+  transform: translateY(-10%);
+}
 .home .intro img {
   border-radius: 10px;
   width: 100%;
@@ -307,4 +323,8 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.home form {
+  display: flex;
+  flex-direction: column;
 }
