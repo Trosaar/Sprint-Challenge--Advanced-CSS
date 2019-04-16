@@ -1,1 +1,21 @@
 // Mixins Here
+
+.btn-design(@bc: @header-font-color, @c:white) {
+  background-color: @bc;
+  color: @c;
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 8px 20px;
+  display: inline-block;
+  border: 1px solid @ebony-clay;
+}
+
+.btn-animation(@bc: white, @c: @header-font-color) {
+  background-color: @bc;
+  color: @c;
+}
+
+.hoverEffect(@effect, @Shadow) {
+   transform: @effect;
+   box-shadow: @Shadow @Shadow @Shadow black;
+}
